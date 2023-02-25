@@ -10,7 +10,8 @@ import cv2
 import glob
 import imutils
 
-image_paths = glob.glob('Images/1/*.jpg')
+#change folder [1,2]
+image_paths = glob.glob('Images/1/*')
 images = []
 
 
@@ -123,7 +124,7 @@ if not error:
     stitched image.
     
     """
-    contours = cv2.findContours(minRectangle.copy(),cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    contours = cv2.findContours(minRectangle.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     
     contours = imutils.grab_contours(contours)
     areaOI = max(contours, key=cv2.contourArea)
@@ -143,8 +144,4 @@ if not error:
     
 else:
     print("Images could not be stitched!")
-    print("Likely not enough keypoints being detected!")
-    
-    
-    
-    
+    print("Likely not enough key points being detected!")
