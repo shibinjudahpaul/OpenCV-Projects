@@ -1,7 +1,7 @@
 ## Video Stabilization Using Point Feature Matching  
 
 This digital form of stabilization is acheived in three broad steps, 
-1. Motion estimation - Transformation parameters between two consecutive frames are calculated and rigid transforms are calculated. 
+1. Motion estimation - Transformation parameters between two consecutive frames are calculated (Rigid Transforms)
 2. Motion smoothing - Unwanted motion is removed by calculating a windowed moving average between frames and trajectory between the now smooth frames are calculated. 
 3. Image composition - The stabilized video is reconstructed in accordance to the calculated trajectory matrix. 
 
@@ -29,7 +29,7 @@ This digital form of stabilization is acheived in three broad steps,
  
  ## Sample Output
 
-  
+  [Ouput](./stableFootage/Recorded Output_sample.mp4)
 
 
 
