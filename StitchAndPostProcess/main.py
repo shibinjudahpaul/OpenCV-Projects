@@ -9,10 +9,12 @@ import numpy as np
 import cv2
 import glob
 import imutils
+from tqdm import tqdm
 
 #change folder [1,2]
-image_paths = glob.glob('Images/1/*')
+image_paths = glob.glob('Images/2/*')
 images = []
+
 
 
 for image in image_paths:
