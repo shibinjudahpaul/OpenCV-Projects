@@ -31,7 +31,7 @@ Thefundamentals of a typical image stitching algorithm require four key steps,
 
  
  ## Sample Input
-  [Input](./Images/2/*)
+  [Input](./Images/2/)
  
  
  ## Sample Output
