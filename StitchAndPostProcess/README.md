@@ -1,6 +1,6 @@
 ## Image Stitching and Post processing to generate a Panorama
 
-Thefundamentals of a typical image stitching algorithm require four key steps,
+The fundamentals of a typical image stitching algorithm require four key steps,
 1. Detecting keypoints (DoG, Harris, etc.) and extracting local invariant descriptors (SIFT, SURF, etc.) from the input.
 2. Matching the descriptors between the images.
 3. Using the RANSAC algorithm to estimate a homography matrix using our matched feature vectors.
