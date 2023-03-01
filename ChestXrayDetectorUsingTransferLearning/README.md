@@ -1,5 +1,5 @@
-# COVID-19 Detection from X-rays using Machine Learning
-This is a Machine Learning project that aims to detect COVID-19 from X-ray images. The goal is to build a classification model that can distinguish between healthy X-rays and those that show signs of COVID-19 infection. The model uses Convolutional Neural Networks (CNN) to extract features from the images and classify them into their respective categories.
+# COVID-19 Detection from X-rays using Transfer Learning
+This is a Machine Learning project that aims to detect COVID-19 from X-ray images. The goal is to build a classification model that can distinguish between healthy X-rays and those that show signs of COVID-19 infection. The model uses Convolutional Neural Networks (CNN) and VGG16 model to extract features from the images and classify them into their respective categories.
 
 ## Dataset
 The dataset used in this project is taken from [Kaggle's Chest X-Ray Images (Pneumonia) dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), 
