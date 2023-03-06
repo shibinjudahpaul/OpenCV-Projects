@@ -70,6 +70,6 @@ The image result will be saved in the [Results](/results) folder. In case of web
 
 - Gaussian blur and color binning reduce image fidelity at high processing cost, best suited for niche applications. BGR1 can be used as a pre-processing step when image or memory size is a priority.
 
-- BGR3 using HSV space did the best in preserving color contrast, especially for shiny objects like the top of a can. Images with a high contrasting background and applying the "Four Corner" technique may improve threshold values
+- BGR3 using HSV space did the best in preserving color contrast, especially for shiny objects like the top of a can. Images with a high contrasting background may improve threshold values.
 
 - Performance can be improved further by leveraging GPUs.
