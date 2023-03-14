@@ -5,7 +5,7 @@ Welcome to my Computer Vision portfolio! This repository contains a collection o
 ## Table of Contents:
 * **Project 1 :** [Stitching and Post-Processing Panoramas](/StitchAndPostProcess)
 * **Project 2 :** [Video Stabilization Using OptialFlow](/VideoStabilizationUsingOptialFlow)
-* **Project 3 :** [COVID-19 Detection from X-rays using Transfer Learning](/ChestXrayDetectorUsingTransferLearnings)
+* **Project 3 :** [COVID-19 Detection from X-rays using Transfer Learning](/ChestXrayDetectorUsingTransferLearning)
 * **Project 4 :** [Vehicle Detection using Contours](/VehicleDetectionUsingContours)
 * **Project 5 :** [Comparision of 3 different Background Removal methods](/BackgroundRemovalThreeWays)
 
