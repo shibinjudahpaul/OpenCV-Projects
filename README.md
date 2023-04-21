@@ -8,6 +8,7 @@ Welcome to my Computer Vision portfolio! This repository contains a collection o
 * **Project 3 :** [COVID-19 Detection from X-rays using Transfer Learning](/ChestXrayDetectorUsingTransferLearning)
 * **Project 4 :** [Vehicle Detection using Contours](/VehicleDetectionUsingContours)
 * **Project 5 :** [Comparision of 3 different Background Removal methods](/BackgroundRemovalThreeWays)
+* **Project 6 :** [Vehicle Detector and Counter using YOLOv8](/AutoTollBooth)
 
 
 
@@ -26,6 +27,9 @@ This project is an implementation of vehicle detection using contours in OpenCV.
 
 ## Project 5: Comparision of 3 different Background Removal methods
 This project compares three different methods for background removal using OpenCV in images, videos and live webcam streams. The methods involve manipulating the foreground and background, using various thresholding techniques, and working with both BGR and HSV color spaces. One method involves extracting the foreground and background using only numpy. 
+
+## Project 6: Vehicle Detector and Counter using YOLOv8
+This project is built to detect and count vehicles on a highway in a given video file or live video stream using YOLOv8. The program outputs a transformed video file with the individual type of detected vehicles and the total count of vehicle Inflow and Outflow from the Tolling Booth. 
 
 
 ## Dependencies
